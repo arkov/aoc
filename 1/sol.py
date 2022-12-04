@@ -1,4 +1,4 @@
-with open('input.txt', 'r') as f:
+with open("input.txt", "r") as f:
     lines = [l.strip() for l in f.readlines()]
 
 s = 0
@@ -17,5 +17,4 @@ elves.sort()
 
 import functools
 
-print(elves[-1], functools.reduce(lambda x,y: x+y, elves[-3:]))
-
+print(elves[-1], functools.reduce(lambda x, y: x + y, elves[-3:]))
