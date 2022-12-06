@@ -3,7 +3,7 @@ with open('input.txt', 'r') as f:
 
 i = 0
 k = 14 # 4
-while(i + 4 <= len(input)):
+while(i + k <= len(input)):
     if len( set(input[i:i+k]) ) == k:
         print(i + k)
         break
