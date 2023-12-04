@@ -13,7 +13,7 @@ fn getnums(strnums: &str) -> HashSet<u32> {
 }
 
 fn main() {
-    let fpath = "src/3.txt";
+    let fpath = "src/4.txt";
     let file = File::open(fpath).unwrap();
     let reader = BufReader::new(file);
 
